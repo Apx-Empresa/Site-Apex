@@ -563,6 +563,16 @@ p {
   font-weight: 600;
 }
 
+.footer-contact .email-link {
+  color: #dfefff;
+  opacity: 0.9;
+}
+
+.footer-contact .email-link:hover,
+.footer-contact .email-link:focus-visible {
+  color: var(--primary-3);
+}
+
 .copyright {
   padding-top: 18px;
   border-top: 1px solid rgba(255,255,255,0.04);
