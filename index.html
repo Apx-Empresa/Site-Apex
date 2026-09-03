@@ -45,22 +45,33 @@
       </div>
     </div>
   </section>
- class="site-footer"> <div class="container footer-inner"> <div class="footer-brand"> <a href="#top" class="brand" aria-label="ApexSite Início"> <span class="brand-mark" aria-hidden="true"> <svg viewBox="0 0 72 72" role="img"> <path d="M36 6 58 52H48L36 22 24 52H14L36 6Z" fill="url(#apexGradientFooter)"/> <path d="M18 58h36l-6 8H24l-6-8Z" fill="#1bb7c8"/> <defs> <linearGradient id="apexGradientFooter" x1="14" x2="58" y1="6" y2="60" gradientUnits="userSpaceOnUse"> <stop stop-color="#29b7ff"/> <stop offset="1" stop-color="#17d7c1"/> </linearGradient> </defs> </svg> </span> <span class="brand-text">ApexSite</span> </a> <p>Sites profissionais, modernos e estratégicos para empresas que querem crescer no digital.</p> </div> <div class="footer-contact"> <h3>Contato</h3> <a href="https://wa.me/11932230010?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20ApexSite%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20site%20para%20minha%20empresa." target="_blank" rel="noopener noreferrer" > WhatsApp: 11932230010 </a> <a class="email-link" href="mailto:apexdesing2620@gmail.com"> Email: apexdesing2620@gmail.com </a> </div> </div> <div class="container copyright"> <p>© 2026 ApexSite. Todos os direitos reservados.</p> </div> </footer> <script src="script.js"></script> </body> </html> 
-<!-- replaceAllWaMeLinksScript_v1: força atualizar links wa.me no cliente -->
-<script>
-document.addEventListener('DOMContentLoaded', function(){
-  var newNum = '11932230010';
-  document.querySelectorAll('a[href*="wa.me"]').forEach(function(a){
-    try {
-      a.href = a.href.replace(/wa\.me\/\+?\d+/, 'wa.me/' + newNum);
-      var t = a.textContent || '';
-      if (/\d{5,}/.test(t)) {
-        a.textContent = t.replace(/\+?55\s*11\s*98788-2343|\+?55\s*11\s*987882343|\(11\)\s*98788-2343|98788-2343|5511987882343/g, newNum);
-      }
-    } catch(e) {}
-  });
-});
-</script>
+  <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#top" class="brand" aria-label="ApexSite Início">
+        <span class="brand-mark">▲</span>
+        <span class="brand-text">ApexSite</span>
+      </a>
+      <p>Sites profissionais, modernos e estratégicos para empresas que querem crescer no digital.</p>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Contato</h3>
+      <a href="https://wa.me/5511932230010" target="_blank">
+        WhatsApp: (11) 93223-0010
+      </a>
+      <a href="mailto:apexdesing2620@gmail.com">
+        E-mail: apexdesing2620@gmail.com
+      </a>
+    </div>
+  </div>
+
+  <div class="container copyright">
+    <p>© 2026 ApexSite. Todos os direitos reservados.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
 </body>
+</html>
 
 
