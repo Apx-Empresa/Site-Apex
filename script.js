@@ -84,7 +84,7 @@ if (loader) {
         document.body.classList.add('site-ready');
       }, 350);
     }
-  }, 90);
+  }, 70);
 }
 
 const menuToggle = document.querySelector('.menu-toggle');
