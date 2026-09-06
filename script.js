@@ -75,7 +75,7 @@ if (magicRingsCanvas && window.THREE) {
 if (loader) {
   let progress = 0;
   const progressTimer = window.setInterval(() => {
-    progress = Math.min(progress + Math.floor(Math.random() * 14) + 7, 100);
+    progress = Math.min(progress + 5, 100);
     loaderProgress.textContent = `${progress}%`;
     if (progress === 100) {
       window.clearInterval(progressTimer);
@@ -84,7 +84,7 @@ if (loader) {
         document.body.classList.add('site-ready');
       }, 350);
     }
-  }, 70);
+  }, 60);
 }
 
 const menuToggle = document.querySelector('.menu-toggle');

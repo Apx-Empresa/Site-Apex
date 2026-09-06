@@ -183,10 +183,10 @@ main, footer, header, section { position: relative; z-index: 1; } .container { w
     border-radius: 50%;
     box-shadow: 0 0 28px rgba(26, 155, 255, .5), inset 0 0 20px rgba(23, 215, 193, .25);
     display: flex;
-    height: 76px;
+    height: 132px;
     justify-content: center;
     position: relative;
-    width: 76px;
+    width: 132px;
     z-index: 2;
   }
 
@@ -231,18 +231,18 @@ main, footer, header, section { position: relative; z-index: 1; } .container { w
     border-top-color: var(--primary);
     border-right-color: var(--primary-2);
     border-radius: 50%;
-    height: 150px;
+    height: 190px;
     position: absolute;
-    width: 150px;
+    width: 190px;
   }
 
   .loader-orbit-one { animation: loader-spin 1.4s linear infinite; }
   .loader-orbit-two {
     animation: loader-spin-reverse 2.2s linear infinite;
     border-bottom-color: var(--primary-3);
-    height: 190px;
+    height: 238px;
     opacity: .45;
-    width: 190px;
+    width: 238px;
   }
 
   .loader-brand {
